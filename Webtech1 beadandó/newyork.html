@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>New York</title>
+</head>
+<body>
+    <header>
+        <h1>New York</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="newyork.html">New York</a></li>
+            <li><a href="losangeles.html">Los Angeles</a></li>
+            <li><a href="terkep.html">Térkép</a></li>
+        </ul>
+    </nav>
+
+    <section id="newyork" class="fade-in">
+        <h2>Látványosságok</h2>
+
+        <div class="varos">
+            <img src="images/newyork1.jpg" alt="newyork1">
+            <h3>Empire State Building</h3>
+            <p class="description" >Az Empire State Building New York város 102 emeletes, 381 méter magas épülete és egyik jelképe, 42 évig volt az USA legmagasabb épülete. Az épület New York Manhattan kerületében a 34. utca és az Ötödik sugárút sarkán magasodik. Nevét New York állam becenevéből (Empire State) kapta.</p>
+        </div>
+
+        <div class="varos">
+            <img src="images/newyork2.jpg" alt="newyork2">
+            <h3>Szabadság szobor</h3>
+            <p class="description" >A Szabadság megvilágosítja a világot, ismertebb nevén a Szabadság-szobor New York előtt, a Liberty Islanden található, a Hudson folyó torkolatánál. Az acélvázas, rézből készült szobrot Franciaország ajándékozta az Amerikai Egyesült Államok függetlenségének százéves évfordulója alkalmából. A szobrász Frédéric Auguste Bartholdi volt, a belső szerkezet mérnöki munkáit Gustave Eiffel végezte.</p>
+        </div>
+
+        <div class="varos">
+            <img src="images/newyork3.jpg" alt="newyork3">
+            <h3>Niagara vízeseés</h3>
+            <button id="jelentkezesButton" onclick="location.href='jelentkezes.html'" onmouseover="onButtonHover('newyork')" onmouseout="onButtonLeave('newyork')">Jelentkezés a túrára</button>
+            <p class="description" >A Niagara-vízesés (angolul: Niagara Falls, franciául: les Chutes du Niagara) hatalmas vízesésegyüttes a Niagara folyón Kanada és az Amerikai Egyesült Államok határán, elválasztva Ontario tartományt és New York államot. Niagara Falls (Ontario) és Niagara Falls (New York) ikervárosok között található, 27 km-re Buffalótól.</p>
+        </div>
+
+        <p class="welcome-text">További látnivalók:</p>
+    <ol>
+        <li>Times square</li>
+        <li>Manhattan</li>
+        <li>9/11 park</li>
+        <li>Central Park</li>
+    </ol>
+
+    <p class="welcome-text">Ezeken kívül még sok program vár!</p>
+
+    </section>
+    <script src="fadeIn.js"></script>
+    <script defer src="buttonupdate.js"></script>
+</body>
+</html>

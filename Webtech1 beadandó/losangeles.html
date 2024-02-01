@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Los Angeles</title>
+</head>
+<body>
+    <header>
+        <h1>Los Angeles</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="newyork.html">New York</a></li>
+            <li><a href="losangeles.html">Los Angeles</a></li>
+            <li><a href="terkep.html">Térkép</a></li>
+        </ul>
+    </nav>
+
+    <section id="losangeles" class="fade-in">
+        <h2>Látványosságok</h2>
+
+        <div class="varos">
+            <img src="images/losangeles1.jpg" alt="losangeles1">
+            <h3>Universal Studios Hollywood</h3>
+            <p class="description" >A Universal Studios Hollywood egy filmstúdió és vidámpark a San Fernando Valley területén , Los Angeles megyében, Kaliforniában . A stúdió körülbelül 70%-a az Universal City néven ismert, jogi személyiséggel nem rendelkező megyei szigeten, a többi pedig a kaliforniai Los Angeles város határain belül található . Ez az egyik legrégebbi és leghíresebb hollywoodi filmstúdió, amely még mindig működik. Hivatalos marketing főcíme "The Entertainment Capital of LA". [2] Eredetileg azzal a céllal hozták létre, hogy a valódi Universal Studios díszleteit bemutató túrákat kínáljon , és ez az első a sok teljes értékű Universal Studios vidámpark közül , amelyek szerte a világon találhatók.</p>
+        </div>
+
+        <div class="varos">
+            <img src="images/losangeles2.jpg" alt="losangeles2">
+            <h3>Hollywood felirat</h3>
+            <p class="description" >A kaliforniai Los Angeles Hollywoodként ismert része Wilcoxné asszonynak köszönheti nevét, aki 1886-ban telepedett le családjával ezen a területen, hogy nyugdíjas éveit az itt megvásárolt hatalmas tanyán töltsék. 1891-től földjüket elkezdték kiparcellázni és eladni. 1903-ban az egyre terebélyesedő közösségből létrejött a ranch eredeti nevéről Hollywoodlandnek nevezett kis falu. 1910-ben csatlakozott Los Angeles városához a csatornarendszer kihasználása végett.</p>
+        </div>
+
+        <div class="varos">
+            <img src="images/losangeles3.jpg" alt="losangeles3">
+            <h3>Hírességek sétánya</h3>
+            <button id="jelentkezesButton" onclick="location.href='jelentkezes.html'" onmouseover="onButtonHover('newyork')" onmouseout="onButtonLeave('newyork')">Jelentkezés a túrára</button>
+            <p class="description" >A Hollywood Walk of Fame (Hollywoodi hírességek sétánya) a szórakoztatóipar hírességeinek nevét megörökítő utcaszakaszok (pontosabban az ott található, csillagdíszítéses járdák) gyűjtőneve Los Angeles Hollywood negyedében.</p>
+        </div>
+
+        <p class="welcome-text">További látnivalók:</p>
+    <ol>
+        <li>Stúdiók</li>
+        <li>Parkok</li>
+    </ol>
+
+    <p class="welcome-text">Ezeken kívül még sok program vár!</p>
+
+    </section>
+    <script src="fadeIn.js"></script>
+    <script defer src="buttonupdate.js"></script>
+</body>
+</html>
